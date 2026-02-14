@@ -1,0 +1,201 @@
+.export-share {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.export-share h2 {
+  margin: 0 0 0.5rem 0;
+  color: #1a1a1a;
+  font-size: 1.75rem;
+}
+
+.section-description {
+  margin: 0 0 1.5rem 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.action-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+}
+
+.action-btn:hover:not(:disabled) {
+  border-color: #667eea;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.action-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.btn-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.btn-title {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1rem;
+}
+
+.btn-subtitle {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.download-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #667eea10 0%, #764ba210 100%);
+  border-color: #667eea;
+}
+
+.share-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #2ecc7110 0%, #27ae6010 100%);
+  border-color: #2ecc71;
+}
+
+.instagram-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #e1306c10 0%, #fd1d1d10 100%);
+  border-color: #e1306c;
+}
+
+.share-link-container {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.share-link-label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.share-link-box {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.share-link-input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background-color: white;
+  color: #333;
+}
+
+.share-link-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.copy-btn {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+  white-space: nowrap;
+}
+
+.copy-btn:hover {
+  transform: scale(1.05);
+}
+
+.copy-btn:active {
+  transform: scale(0.98);
+}
+
+.share-link-help {
+  display: block;
+  color: #666;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.export-info {
+  margin-top: 2rem;
+}
+
+.info-card {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f0f4ff 0%, #fef3f8 100%);
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.info-card h4 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.info-card ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #555;
+}
+
+.info-card li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.info-card li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .export-share {
+    padding: 1.5rem;
+  }
+
+  .action-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .share-link-box {
+    flex-direction: column;
+  }
+
+  .copy-btn {
+    width: 100%;
+  }
+}
