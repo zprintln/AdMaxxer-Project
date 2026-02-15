@@ -98,7 +98,6 @@ docker-compose down
 * [ ] Campaign performance metrics
 * [ ] Real-time analytics
 * [ ] Role-based access control
-* [ ] Payment integration
 * [ ] Deployment pipeline
 
 ---
