@@ -16,7 +16,7 @@ Built with a modern tech stack for scalability and rapid development.
 * **Backend:** Node.js + Express
 * **Database:** PostgreSQL
 * **Containerization:** Docker & Docker Compose
-* Add Sponsored tech here!
+* **Vercel, MiniMax, Bem, Replit, Runloop
 
 ---
 
