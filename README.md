@@ -1,12 +1,10 @@
-Here’s a clean, professional **initial README** for **AdMaxxer** that fits a fullstack React + Node + PostgreSQL Docker setup.
 
-You can copy this into your `README.md`.
-
----
 
 # AdMaxxer 🚀
 
-AdMaxxer is a fullstack web application designed to help businesses create, manage, and optimize advertising campaigns efficiently.
+AdMaxxer is a fullstack web application designed to help content creators, manage, and optimize advertising campaigns efficiently.
+
+https://ad-maxxer.lovable.app/
 
 Built with a modern tech stack for scalability and rapid development.
 
